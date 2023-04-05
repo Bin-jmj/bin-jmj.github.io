@@ -56,12 +56,23 @@
     visibility: visible;
     opacity: 1;
 }
-span , .logo { 
+img.logo { 
     width: 150px; 
     height: 75px; 
     display: block; 
     border-radius: 20px;
     text-indent: -9999px;
+    transition: .5s ease;
+} 
+img.logo:hover {
+   scale: .5;
+   box-shadow: #091E3E 0 0 4px 4px 0.5;
+}
+h1.hover-text {
+    transition: .5s ease-in-out all;
+}
+h1.hover-text:hover{
+    color: #34AD54;
 }
 /*** Heading ***/
 h1,
