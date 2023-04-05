@@ -187,6 +187,7 @@ h6,
     .navbar-dark .navbar-brand h1 {
         color: var(--primary);
     }
+    
 }
 
 @media (min-width: 992px) {
@@ -228,6 +229,7 @@ h6,
     .sticky-top.navbar-dark .navbar-brand h1 {
         color: var(--primary);
     }
+   
 }
 
 
@@ -250,6 +252,11 @@ h6,
     .carousel-caption h1 {
         font-size: 30px;
         font-weight: 600 !important;
+    }
+     img.logo {
+        width: 100px;
+        height: 50px;
+        border-radius: 20px;
     }
 }
 
@@ -363,6 +370,14 @@ h6,
     bottom: -24px;
     opacity: 1;
 }
+/*** Gallery ***/
+.gallery {
+    position: relative;
+    /* height: 200px; */
+    margin: 100px 0 10px 0;
+
+}
+
 
 
 /*** Testimonial ***/
