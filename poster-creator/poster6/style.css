@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: auto;
     background-color: #fff;
 }
 
@@ -21,8 +22,8 @@ h2 {
 }
 #poster-container {
     position: relative;
-    width: 800px;
-    height: 900px;
+    width: 500px;
+    height: 500px;
     background-image: url('USHOGA-.jpg');
     border-radius: 5px;
     background-size: cover;
