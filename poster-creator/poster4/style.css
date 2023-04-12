@@ -1,0 +1,44 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f2f2f2;
+}
+#poster {
+	position: relative;
+	width: 500px;
+	height: 600px;
+	background-image: url('IMG-20230330-WA0003.jpg');
+	background-size: cover;
+	background-position: center;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	margin-right: 20px;
+}
+#uploaded-image {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	background-size: cover;
+	background-position: center;
+	border: 1px solid black;
+	z-index: 1;
+}
+input[type="file"] {
+	margin-bottom: 20px;
+}
+button[type="submit"] {
+	padding: 10px 20px;
+	background-color: #4CAF50;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+button[type="submit"]:hover {
+	background-color: #3e8e41;
+}

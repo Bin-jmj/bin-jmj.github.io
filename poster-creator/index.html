@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Image to Poster</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<h1>Image to Poster</h1>
+	<div class="container">
+		<form>
+			<div class="input-field">
+				<label for="image-upload">Select an image:</label>
+				<input type="file" id="image-upload" accept="image/*">
+			</div>
+			<div class="input-field">
+				<input type="submit" value="Create Poster">
+			</div>
+		</form>
+		<div class="poster-container">
+			<img class="poster" id="poster" src="" alt="">
+			<div id="download-container"></div>
+		</div>
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

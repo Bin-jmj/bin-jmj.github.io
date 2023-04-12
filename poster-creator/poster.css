@@ -1,0 +1,52 @@
+#frame {
+	width: 600px;
+	margin: 0 auto;
+	padding: 20px;
+	/* background-color: #fff; */
+	background-image: url(gallery-1.jpg);
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#avatar-container {
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	position: relative;
+	top: 25px;
+	right: 100px;
+	border-radius: 50%;
+	background-color: #fff;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+}
+
+#avatar {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+#download-container {
+	margin: 20px 0;
+}
+
+.button {
+	display: inline-block;
+	padding: 10px;
+	background-color: #007bff;
+	color: #fff;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.button:hover {
+	background-color: #0062cc;
+}
+
+#poster {
+	max-width: 100%;
+	height: auto;
+	margin: 20px 0;
+	display: none;
+}
