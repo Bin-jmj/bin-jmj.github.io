@@ -10,7 +10,11 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+<<<<<<< HEAD
     /* height: 600px; */
+=======
+    height: auto;
+>>>>>>> bb17e4d25eb39242411eba1b1dd921d0446025a5
     background-color: #fff;
 }
 
@@ -24,7 +28,11 @@ h2 {
     position: relative;
     width: 930px;
     height: 930px;
+<<<<<<< HEAD
     background-image: url('USHOGA.jpg');
+=======
+    background-image: url('USHOGA-.jpg');
+>>>>>>> bb17e4d25eb39242411eba1b1dd921d0446025a5
     border-radius: 5px;
     background-size: cover;
     margin: 0 auto;
@@ -38,6 +46,10 @@ h2 {
     border-radius: 10px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     width: 100%;
+<<<<<<< HEAD
+=======
+
+>>>>>>> bb17e4d25eb39242411eba1b1dd921d0446025a5
     text-align: center;
     padding-top: 10px;
     margin-top: 20rem;
@@ -83,7 +95,10 @@ button {
     border: none;
     border-radius: 5px;
     height:50px;
+<<<<<<< HEAD
     width: 100%;
+=======
+>>>>>>> bb17e4d25eb39242411eba1b1dd921d0446025a5
     cursor: pointer;
     transition: .5s ease-in-out all;
 }
@@ -102,7 +117,11 @@ button:hover {
     body {
         font-size: 16px;
     }
+<<<<<<< HEAD
     h2 {
+=======
+    h1 {
+>>>>>>> bb17e4d25eb39242411eba1b1dd921d0446025a5
         font-size: 24px;
         margin: 20px 0;
     }
