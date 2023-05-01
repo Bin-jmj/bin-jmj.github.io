@@ -44,7 +44,7 @@ h2 {
     margin-top: 20rem;
 }
 label {
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     margin-bottom: 1rem;
 }
 #uploaded-image {
@@ -58,6 +58,11 @@ label {
     border: 5px solid #7194b1;
     border-radius: 50%;
     z-index: 1;
+}
+form {
+    padding: 20px;
+    width:50px;
+    height: 10px;
 }
 
 .input-field {

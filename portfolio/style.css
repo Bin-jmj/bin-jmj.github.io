@@ -149,6 +149,10 @@ header .navigation a:hover{
 body {
     min-height: 101vh;
 }
+p {
+    font-family: 'Pacifico', cursive;
+
+}
 .title {
     width: 100%;
     display: flex;
