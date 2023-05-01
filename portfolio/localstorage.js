@@ -38,8 +38,9 @@ if(user == null) {
 
 else if(email == data.email && pass == data.password) {
     result.innerHTML = "Login Sucessfull";
+    window.location.href = "home.html";
 
 }else {
-    result.innerHTML = "wrong password";
+    result.innerHTML = "Wrong password";
 }
 }

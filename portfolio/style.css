@@ -610,6 +610,24 @@ p {
     .skills .content .col-right {
         margin-top: 40px;
     }
+    /* resposive work section */
+    .work .content .card .card-img img ,iframe{ 
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover; 
+        border-radius: 10px;
+        transition: 0.5s ease;
+    }
+    .work .content .card .card-img img:hover{
+        transform: scale(1);
+    }
+    .work .content .card .card-img iframe:hover {
+        transform: scale(1);
+    }
+    
     .contact-form {
         padding: 35px 40px;
     }
