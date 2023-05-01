@@ -20,21 +20,12 @@ h2 {
 }
 .handwriting {
     font-family: 'Pacifico', cursive;
-    font-size: 30px;
+    font-size: 20px;
     color: #333;
     text-align: center;
-    animation: marquee 10s linear infinite;
     white-space: nowrap;
     overflow: hidden;
     margin: 5px 0;
-}
-@keyframes marquee {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
 }
 
 p {
@@ -105,7 +96,7 @@ span {
 
 
 /* media query */
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 668px) {
 	header {
 		padding: 10px;
 	}
@@ -119,7 +110,7 @@ span {
 	}
 
 	.handwriting {
-		font-size: 20px;
+		font-size: 10px;
 	}
 
 	p {
