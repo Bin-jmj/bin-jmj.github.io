@@ -3,10 +3,10 @@
 function signup(e) {
 event.preventDefault()
 
-var email = document.getElementById("email1").value;
+var email = document.getElementById("m").value;
 var fullname = document.getElementById("fullname").value;
-var pass = document.getElementById("password1").value;
-
+var pass = document.getElementById("p").value;
+var msg = document.querySelector(".message");
  var user = {
 
     email: email,
@@ -17,8 +17,9 @@ var pass = document.getElementById("password1").value;
 var json = JSON.stringify(user);
 
 localStorage.setItem(email, json)
-console.log('user added');
 
+// window.location.href = "index.html";
+msg.innerHTML = "You have Successful Sign Up";
 }
 
 function login(e) {
