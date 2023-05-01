@@ -72,6 +72,7 @@ p {
     display: flex;
     flex-direction: column;
     margin:20px;
+    font-size: 18pt;
     padding-left: 15px;
     padding-bottom: 10px;
     
@@ -87,6 +88,7 @@ p {
 }
 .right {
     padding: 10px;
+    border-bottom: 5px solid green;
     width: 100%;
 }
 .right ul li {
