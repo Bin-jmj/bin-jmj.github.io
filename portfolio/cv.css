@@ -94,7 +94,14 @@ p {
 .right ul li {
     margin-left: 15px;
 }
-
+.strip .line {
+    position: relative;
+}
+.line {
+    position: absolute;
+    width: 100%;
+    background: green;
+}
 /* Media query for small screens */
 
 @media screen and (max-width: 480px) {
