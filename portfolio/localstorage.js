@@ -18,18 +18,15 @@ var pass = document.getElementById("p").value;
 };
 
 var json = JSON.stringify(user);
-
 localStorage.setItem(email, json)
 
 // fetch data from localstorage to js format
 var user = localStorage.getItem(email);
 var dt = JSON.parse(user);
 var em = dt.email;
-var pas = dt.password;
+var name = dt.fullname;
 
 // display info to the user
-var _email = document.querySelector('#_email');
-var _password = document.querySelector('#_password');
 var _form = document.querySelector(".sign");
 var msg = document.querySelector('.message');
 var _user_message = document.querySelector('.user_message');
@@ -37,12 +34,9 @@ var _user_message = document.querySelector('.user_message');
     if (_form.style.display !== "none")
     {
         _form.style.display = "none";
-
         _user_message.style.display = "block";
         
-     msg.innerHTML = "You have Successful Sign <br> Use  Your Information to login";
-    _email.innerHTML = "<h4> Your Email:<br><h4>" + em;
-    _password.innerHTML = "<h4>Your Password:</h4>" + pas; 
+        msg.innerHTML = ` Dear <b>${name}</b> You have Successful Sign in using Email Account <b> ${em}</b>`;
     }
 
 }

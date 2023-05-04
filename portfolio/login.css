@@ -27,20 +27,20 @@ h2 {
     font-family: 'Pacifico', cursive;
     font-size: 20px;
     color: #333;
-    animation: marquee 10s linear infinite;
+    /* animation: marquee 10s linear infinite; */
     text-align: center;
     white-space: nowrap;
     overflow: hidden;
     margin: 5px 0;
 }
-@keyframes marquee {
+/* @keyframes marquee {
 	0% {
 		transform: translateX(100%);
 	}
 	100% {
 		transform: translateX(-100%);
 	}
-}
+} */
 
 p {
     font-size: 18px;
